@@ -11,10 +11,10 @@ jobs:
     steps:
     - name: Mendownload Ngrok.
       run: |
-        Invoke-WebRequest https://drive.google.com/uc?id=140GN2c1yFT3OeB8NFZcZOHip6mNJZxNY -OutFile ngrok.zip
+        Invoke-WebRequest https://drive.google.com/uc?id=1oX7r7vWJi41_1sxM9VeyHIOim4PYy3FX -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/RunaStallion1990/TrueStory/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://drive.google.com/uc?id=18-VZLu31bXTivkwf-a-E1S3v_FOVJzM9 -OutFile wallpaper.jpg
-        Invoke-WebRequest https://drive.google.com/uc?id=1jqm19BxJkB7UGJ-DWDOkhhN75vJWDnxY -OutFile wallpaper.bat
+        Invoke-WebRequest https://drive.google.com/uc?id=13siNqvoeDEuFCh78CtwjNeZ4rhuAEGrb -OutFile wallpaper.jpg
+        Invoke-WebRequest https://drive.google.com/uc?id=1HuSox2ElFSF8KnOktAy9PulhLer1SyLx -OutFile wallpaper.bat
     - name: Mengekstrasi berkas Ngrok.
       run: Expand-Archive ngrok.zip
     - name: Terhubung Ke Akun Ngrok.
